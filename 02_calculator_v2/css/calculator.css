@@ -126,6 +126,16 @@ input[type=number] {
 #btnclear:active{
   transform: translate(4px);
 }
+.btn {
+  color: whitesmoke;
+  border: solid 0.02px rgb(241, 241, 241);
+  border-bottom: solid 4px grey;
+  border-radius: 10px;
+  background: rgb(26, 212, 212);
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
 
 #result  {
   margin: 0.05em;

@@ -12,8 +12,6 @@ elementnum2.addEventListener("change", clear);
 
 elementbtnEqual.addEventListener("click", update);
 
-
-
 function update() {
     const result = calculate(
         Number(elementNum1.value),
@@ -42,6 +40,7 @@ function calculate(num1, num2, calcType) {
     }
     return result;
 }
+
 function clear() {
     elementResult.innerHTML = "";
-  }
+}
