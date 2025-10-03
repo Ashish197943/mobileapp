@@ -26,6 +26,9 @@ body{
     background-image: url(../img/xxxxxxxx.JPG);
     background-size: cover;
     overflow: hidden;
+    background-image: url(../img/hot-air-balloon-9070079_1920.jpg);
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 header, footer, h1, h2, h3, p, div, .container01, .filler01 {

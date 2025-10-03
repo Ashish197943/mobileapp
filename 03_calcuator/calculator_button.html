@@ -13,41 +13,40 @@
     <!-- Font Awesome animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css" type="text/css" media="all" />
 
-    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="stylesheet" href="css/calculator2.css">
   </head>
 
   <body>
-      <div class="back">
-            <button id = "btn99" class="btn" type="button" onclick="history.back()">back</button>
-        </div>
+    <div class = "back">
+      <button id="btn99" class="back" type="button" onclick="history.back()">back</button>
+    </div>
     <header>
       <h1>Calculator</h1>
     </header>
+
     <div class="wrapper">
+      <p>入力した順番に計算をしていく計算機です。</p>
       <div class="f-container">
-        <div class="f-item">
-          <input type="number" value="1" id="num1">
-        </div>
-  
-        <div class="f-item">
-          <select id="calcType">
-            <option value="type-add">+</option>
-            <option value="type-substract">-</option>
-            <option value="type-multiply">×</option>
-            <option value="type-divide">÷</option>
-          </select>
-        </div>
-  
-        <div class="f-item">
-          <input type="number" value="2" id="num2">
-        </div>
-  
-        <div class="f-item">
-          <button id="btnEqual" type="button">=</button>
-        </div>
-  
-        <div class="f-item">
-          <div id="result"></div>
+        <div class="f-box">
+          <!-- ボタンは自分でコーディングする -->
+          <div id="calcLog" class="f-item"></div>
+          <div id="result" class="f-item">0</div>
+          <div id="cancel" class="f-item btn" >C</div>
+          <div id="div" class="f-item btn" >/</div>
+          <div id="num7" class="f-item btn" >7</div>
+          <div id="num8" class="f-item btn" >8</div>
+          <div id="num9" class="f-item btn" >9</div>
+          <div id="mult" class="f-item btn" >*</div>
+          <div id="num4" class="f-item btn" >4</div>
+          <div id="num5" class="f-item btn" >5</div>
+          <div id="num6" class="f-item btn" >6</div>
+          <div id="sub" class="f-item btn" >-</div>
+          <div id="num1" class="f-item btn" >1</div>
+          <div id="num2" class="f-item btn" >2</div>
+          <div id="num3" class="f-item btn" >3</div>
+          <div id="add" class="f-item btn" >+</div>
+          <div id="num0" class="f-item btn" >0</div>
+          <div id="equal" class="f-item btn" >=</div>
         </div>
       </div>
     </div>
@@ -64,6 +63,6 @@
       </p>
     </footer>
 
-    <script src="js/calc.js"></script>
+    <script src="js/calculator2.js"></script>
   </body>
 </html>

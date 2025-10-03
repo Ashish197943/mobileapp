@@ -88,6 +88,14 @@ input[type=number] {
   text-align: center;
   vertical-align: middle;
 }
+#btn99{
+  padding: 0.5em;
+  border-radius: 0.3em;
+  color: whitesmoke;
+  font-size: 1.5em;
+  background: rgb(26, 212, 212);
+  cursor: pointer;
+}
 /* 「＝」をボタンにする */
 /* #btnEqual {
   margin: 0.05em;
