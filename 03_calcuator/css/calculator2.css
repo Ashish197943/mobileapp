@@ -27,7 +27,7 @@ body {
 /*******************************************************/
 h1 {
   font-size: 3em;
-  color: rgb(26, 212, 212);
+  color: rgb(255, 148, 17);
   text-align: center;
 }
 /*******************************************************/
@@ -70,11 +70,11 @@ h1 {
 }
 .btn {
   display: inline-block;
-  color: whitesmoke;
+  color: rgba(22, 139, 255, 0.779)0;
   border: solid 0.02px rgb(241, 241, 241);
   border-bottom: solid 4px grey;
   border-radius: 10px;
-  background: rgb(26, 212, 212);
+  background: rgb(222, 226, 125);
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -135,6 +135,6 @@ footer> p {
   border-radius: 0.3em;
   color: whitesmoke;
   font-size: 1.5em;
-  background: rgb(26, 212, 212);
+  background: rgb(0, 0, 0);
   cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
 }
