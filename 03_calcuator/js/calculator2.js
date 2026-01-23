@@ -168,7 +168,7 @@ function keydownEvent(event) {
   }
 
   // Escape = 「C」（クリア）
-  if (key === "Escape") {
+  if (key === "Escape"|| key === "c"|| key==="Backspace"|| key=== "Delete"){
     clear();
   }
 }
