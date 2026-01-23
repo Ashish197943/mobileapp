@@ -118,10 +118,10 @@ header{
 }
 
 /* winner-line high -line*/
-.js-pen_highlight{
+.js-pen_highLight{
     border: solid 2px red;
 }
-.js-bear_highlight{
+.js-bear_highLight{
     border: solid 2px blue;
 }
 

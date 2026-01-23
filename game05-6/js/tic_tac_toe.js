@@ -38,9 +38,9 @@ let winningLine = null;
 
 const msgtxt1 = '<p class="image"><img src="img/penguins.jpg" width = 61px height = 61px></p><p class = "text">Penguins Attack!</p>';
 const msgtxt2 = '<p class="image"><img src="img/whitebear.jpg" width = 61px height = 61px></p><p class = "text">Whitebear Attack!</p>';
-const msgtxt3 = '<p class="image"><img src="img/penguins.jpg" width = 61px height = 61px></p><p class = "text animate_animated animate_lightSpeedInRight">Penguins Wins!</p>';
-const msgtxt4 = '<p class="image"><img src="img/whitebear.jpg" width = 61px height = 61px></p><p class = "text animate_animated animate_lightSpeedInLeft">Whitebear Wins!</p>';
-const msgtxt5 = '<p class="image"><img src="img/penguins.jpg" width = 61px height = 61px><img src="img/whitebear.jpg" width = 61px height = 61px></p><p class = "text animate_bounceIn">Draws!</p>';
+const msgtxt3 = '<p class="image"><img src="img/penguins.jpg" width = 61px height = 61px></p><p class = "text animate__animated animate__lightSpeedInRight">Penguins Wins!</p>';
+const msgtxt4 = '<p class="image"><img src="img/whitebear.jpg" width = 61px height = 61px></p><p class = "text animate__animated animate__lightSpeedInLeft">Whitebear Wins!</p>';
+const msgtxt5 = '<p class="image"><img src="img/penguins.jpg" width = 61px height = 61px><img src="img/whitebear.jpg" width = 61px height = 61px></p><p class = "text animate__bounceIn">Draws!</p>';
 
 //サウンド
 let gameSound = ["sound/click_sound1.mp3","sound/click_sound2.mp3","sound/penwin_sound.mp3","sound/bearwin_sound.mp3","sound/draw_sound.mp3"];
@@ -226,8 +226,8 @@ newgamebtn.addEventListener("click", function(){
         square.classList.remove("js-pen-checked");
         square.classList.remove("js-bear-checked");
         square.classList.remove("js-unclickable");
-        square.classList.remove("js-pen_ighlight");
-        square.classList.remove("js-bear_highlight");
+        square.classList.remove("js-pen_highLight");
+        square.classList.remove("js-bear_highLight");
     });
     setMessage("pen-turn");
     newgamebtn_display.classList.add("js-hidden");
